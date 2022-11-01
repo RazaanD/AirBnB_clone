@@ -1,12 +1,10 @@
 #!/usr/bin/python3
-""" Review class. Used as base for future Reviews."""
-
+""" Class Review """
 from models.base_model import BaseModel
 
 
 class Review(BaseModel):
-    """ Review class. Used as base for future Reviews."""
-
-    place_id = ''
-    user_id = ''
-    text = ''
+    """ Review class that inherits BaseModel """
+    place_id = ""
+    user_id = ""
+    text = ""
